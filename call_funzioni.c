@@ -2,16 +2,6 @@
 #include "call_funzioni.h"
 #include "tipi.h"
 #include <string.h>
-
-void salva_admin(amministratore_t admin){
-    FILE *fp = fopen(FILE_ADMIN, "ab"); //fp sta per filepointer
-    if (fp == NULL) {
-        printf("Errore apertura file: Admin.\n");
-        return;
-    }
-    fwrite(&admin, sizeof(amministratore_t), 1, fp);
-    fclose(fp);
-}
     
 void salva_fantacoach(fantacoach_t fantacoach){
     FILE *fp = fopen(FILE_FANTACOACH, "ab");

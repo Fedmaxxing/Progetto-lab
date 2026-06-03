@@ -6,7 +6,8 @@
 #define FILE_ADMIN      "admin.dat"
 #define FILE_FANTACOACH "fantacoach.dat"
 
-void salva_admin(amministratore_t admin);
+void inizializza_admin(void);
+
 void salva_fantacoach(fantacoach_t coach);
 
 int verifica_admin(char *nickname, char *password);

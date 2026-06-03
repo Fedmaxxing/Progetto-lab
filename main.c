@@ -8,6 +8,7 @@ int main(){
     amministratore_t admin;
     fantacoach_t coach;
     
+    
 
     
 

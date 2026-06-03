@@ -12,6 +12,7 @@ typedef struct{
 typedef struct{
     char nickname[NICKNAME];
     char password[PASSWORD];
+    int torneo_gio[63];
 }fantacoach_t;
 
 #endif
